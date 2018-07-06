@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Johnson County Community College
+    Fall 2017
+
+     Web 114 Final Project
+     What's For Lunch Game
+     Author: Melissa Arroyo
+     Date:  November 20, 2017
+
+     Filename: menus.html
+  -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WFL? - View Menus</title>
+  <link rel="stylesheet" href="wfl.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!--[if lt IE 9]>
+     <link rel="stylesheet" href="tubaie.css" />
+  <![endif]-->
+</head>
+<body id="menusbody">
+  <div id="wrapper"><!--Begin Content Wrapper-->
+    <nav><!--for more JavaScript examples, view nav items-->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</li><!--extra items in the rubric-->
+        <li><a href="" id="subsbox">Newsletter</a></li><!--uses window prompt-->
+        <li><a href="menus.html">View Menus</a></li><!--more JavaScript examples-->
+      </ul>
+    </nav>
+    <hr>
+    <header id="hero">
+      <h1>View our menu</h1>
+      <p>It's lunch time and you don't know what to eat. In fact, you never know what to eat. You're always indecisive and end up eating cereal or a granola bar and your friends don't ask you out for lunch anymore.</p>
+    </header>
+    <div id="menusection">
+      <h2>Not sure what to eat? View our suggestions!</h2>
+      <br>
+      <select id="dietOptions" required>
+        <option>Select a menu...</option>
+        <option value="veganMenu">Vegan</option>
+        <option value="vegetarianMenu">Vegetarian</option>
+        <option value="meatMenu">Meat</option>
+        <option value="indiffMenu">Doesn't Matter</option>
+      </select>
+      <br>
+      <div id="menubox"><p id="menulist">Something's cookin'...</p></div>
+    </div>
+    <div id="share">
+      <h2>Sharing is caring</h2>
+      <p>Share your results with your friends. Maybe they'll have lunch with you this time?</p>
+      <button id="shareButton">Share Away!</button>
+    </div>
+  <footer>
+    <small>
+        <i>
+          &copy;2017 What's For Lunch?<br>
+          <a href="mailto:marroyo@stumail.jccc.edu">marroyo@stumail.jccc.edu</a>
+        </i>
+    </small>
+  </footer>
+  </div><!--End Content Wrapper-->
+  <script src="wflmenu.js"></script>
+</body>
+</html>

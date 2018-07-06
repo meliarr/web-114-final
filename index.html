@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Johnson County Community College
+    Fall 2017
+
+     Web 114 Final Project
+     What's For Lunch Game
+     Author: Melissa Arroyo
+     Date:  November 5, 2017
+
+     Filename: index.html
+  -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WFL? - Meal idea generator for indecisive people</title>
+  <link rel="stylesheet" href="wfl.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!--[if lt IE 9]>
+     <link rel="stylesheet" href="tubaie.css" />
+  <![endif]-->
+</head>
+<body>
+  <div id="wrapper"><!--Begin Content Wrapper-->
+    <nav><!--for more JavaScript examples, view nav items-->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</li><!--extra items in the rubric-->
+        <li><a href="" id="subsbox">Newsletter</a></li><!--uses window prompt-->
+        <li><a href="menus.html">View Menus</a></li><!--more JavaScript examples-->
+      </ul>
+    </nav>
+    <hr>
+    <header id="hero">
+      <h1>What's for Lunch?</h1>
+      <p>It's lunch time and you don't know what to eat. In fact, you never know what to eat. You've always been indecisive and end up eating cereal or a granola bar and your friends never ask you out for lunch anymore.</p>
+    </header>
+    <div id="form-section">
+      <h2>For all you indecisive eaters out there...</h2>
+      <p><i>Just answer a few questions and we'll decide for you.</i></p>
+      <hr class="formhr">
+      <form action="">
+        <p>What's your name (or nickname)?</p>
+        <input type="text" id="box1" name="name" required>
+        <p>Dietary Requirements?</p>
+        <select id="diet" required>
+          <option>Please Choose...</option>
+          <option value="vegan">I'm a Vegan</option>
+          <option value="vegetarian">I'm a Vegetarian</option>
+          <option value="meat">I love meat!</option>
+          <option value="indiff">Doesn't Matter</option>
+        </select>
+        <p>Preferably...</p>
+        <select id="preference" required>
+          <option>Please Choose...</option>
+          <option value="healthy">Healthy AF</option>
+          <option value="delicious">Delicious #NoRegrets</option>
+          <option value="idc">I don't care #YOLO</option>
+        </select>
+      </form>
+      <br>
+      <button id="result">Tell me what to eat!</button>
+      <div id="resultsbox"><p id="paragraphText">Something's cookin'...</p></div>
+    </div>
+    <div id="share">
+      <h2>Sharing is caring</h2>
+      <p>Share your results with your friends. Maybe they'll have lunch with you this time?</p>
+      <button id="shareButton">Share Away!</button>
+    </div>
+  <footer>
+    <small>
+        <i>
+          &copy;2017 What's For Lunch?<br>
+          <a href="mailto:marroyo@stumail.jccc.edu">marroyo@stumail.jccc.edu</a>
+        </i>
+    </small>
+  </footer>
+  </div><!--End Content Wrapper-->
+  <script src="wfl.js"></script>
+</body>
+</html>

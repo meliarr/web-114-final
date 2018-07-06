@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Johnson County Community College
+    Fall 2017
+
+     Web 114 Final Project
+     What's For Lunch Game
+     Author: Melissa Arroyo
+     Date:  November 20, 2017
+
+     Filename: menus.html
+  -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extras</title>
+  <link rel="stylesheet" href="wfl.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!--[if lt IE 9]>
+     <link rel="stylesheet" href="tubaie.css" />
+  <![endif]-->
+</head>
+<body>
+  <div id="aboutwrapper"><!--Begin Content Wrapper-->
+    <nav><!--for more JavaScript examples, view nav items-->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</li><!--extra items in the rubric-->
+        <li><a href="" id="subsbox">Newsletter</a></li><!--uses window prompt-->
+        <li><a href="menus.html">View Menus</a></li><!--more JavaScript examples-->
+      </ul>
+    </nav>
+    <hr>
+    <header id="hero">
+      <h1 id="hello">Extra items in rubric</h1>
+      <p>This page contains more operators, a query selector, and a getElementsByTagName.</p>
+    </header>
+    <div id="extra" class="hi">
+      <h2>Use this calculator:</h2>
+      <br>
+      <form id="calc" action="">
+        <input id="num1box" type="number" name="quantity">
+        <select id="operators">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="/">/</option>
+          <option value="*">*</option>
+          <option value="%">%</option>
+          <option value="<"><</option>
+          <option value="<="><=</option>
+          <option value=">">></option>
+          <option value=">=">>=</option>
+          <option value="==">==</option>
+          <option value="!==">!==</option>
+        </select>
+        <input id="num2box" type="number" name="quantity"><br><br>
+      </form>
+      <button id="calcButton">Calculate!</button>
+      <div id="calcTotal"><p id="calcTotalPara"></p></div>
+      <button id="queryAllButton">Change Background Color!</button>
+      <button id="tagsButton">Change Header color!</button>
+    </div>
+  <footer>
+    <small>
+        <i>
+          &copy;2017 What's For Lunch?<br>
+          <a href="mailto:marroyo@stumail.jccc.edu">marroyo@stumail.jccc.edu</a>
+        </i>
+    </small>
+  </footer>
+  </div><!--End Content Wrapper-->
+  <script src="wflextra.js"></script>
+</body>
+</html>

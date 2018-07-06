@@ -1,0 +1,451 @@
+/*
+  Johnson County Community College
+  Fall 2017
+
+   Web 114 Final Project
+   What's For Lunch Game
+   Author: Melissa Arroyo
+   Date:  November 20, 2017
+
+   Filename: wfl.css
+*/
+
+
+nav
+    {
+      text-align: right;
+      padding-right: 2em;
+      margin: 0;
+    }
+
+nav ul
+    {
+      list-style-type: none;
+    }
+
+nav a
+    {
+      text-decoration: none;
+    }
+
+nav ul li
+    {
+      display: inline-block;
+      padding-left: 1em;
+      font-weight: bold;
+      color: #FFFFFF;
+    }
+
+body
+    {
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+      font: helvetica;
+      background-color: #eaeaea;
+      background:
+      linear-gradient(
+        rgba(93, 96, 87, 0.75),
+        rgba(93, 96, 87, 0.75)
+        ),
+      url("headerimg.jpeg");
+      background-position: right top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+#menusbody
+    {
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+      font: helvetica;
+      background-color: #eaeaea;
+      background:
+      linear-gradient(
+        rgba(93, 96, 87, 0.75),
+        rgba(93, 96, 87, 0.75)
+        ),
+      url("menuheader.jfif");
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+hr
+    {
+      background-color: #FFFFFF;
+      color: #FFFFFF;
+      height: 1px;
+      border: 0 none;
+      opacity: 0.5;
+    }
+
+#hero
+    {
+      height: 23em;
+      color: #FFFFFF;
+      text-align: left;
+    }
+
+#hero h1
+    {
+
+      padding-left: 2em;
+      padding-top: 3em;
+      font-size: 2.5em;
+    }
+
+#hero p
+    {
+      padding-left: 5em;
+      width: 35%;
+      font-weight: normal;
+      font-size: 1em;
+      line-height: 130%;
+    }
+
+#form-section
+    {
+      text-align: center;
+      font-weight: bold;
+      padding-top: 3em;
+      padding-bottom: 3em;
+      background-color: #FFFFFF;
+      background-image: url("formimg2.jpg");
+      background-size: cover;
+      background-position: right;
+    }
+
+#menusection
+        {
+          text-align: center;
+          font-weight: bold;
+          padding-top: 3em;
+          padding-bottom: 3em;
+          background-color: #FFFFFF;
+          background-image: url("menusimg.jpg");
+          background-size: cover;
+        }
+
+#resultsbox, #menubox
+    {
+      background-color: #FBFBF8;
+      width: 30%;
+      height: 40%;
+      margin: auto;
+      border: 2px solid #949492;
+      border-radius: 5px;
+      margin-top: 2em;
+    }
+
+#resultsbox p, #menubox p
+    {
+      padding: 2em;
+    }
+
+#share
+    {
+      background:
+      linear-gradient(
+        rgba(253, 251, 251, 0.58),
+        rgba(253, 251, 251, 0.58)
+        ),
+      url("shareimg.jpeg");
+      background-size: cover;
+      background-position: bottom;
+    }
+
+#share p
+    {
+      font-weight: bold;
+    }
+
+button a
+    {
+      text-decoration: none;
+    }
+
+button
+    {
+      background-color: transparent;
+      border: 2px solid #FFFFFF;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 2em;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+button:hover
+    {
+      background-color: RGBA(201, 201, 105, .55);
+      color: RGBA(120, 113, 11, 1);
+    }
+
+/* unvisited link */
+a:link
+      {
+        color: #fcf9f9;
+      }
+
+/* visited link */
+a:visited
+      {
+        color: #AD94C6;
+      }
+
+/* selected link */
+a:active
+      {
+        color: #0000FF;
+      }
+
+.formhr
+      {
+        width: 50%;
+        height: 2px;
+      }
+
+fieldset
+    {
+      padding-bottom: 2em;
+      border: 0;
+      text-align: center;
+    }
+
+legend
+    {
+      font-size: 20px;
+    }
+
+#share
+    {
+      text-align: center;
+      background-color: #eaeaea;
+      padding-top: 3em;
+      padding-bottom: 3em;
+    }
+
+footer
+    {
+      text-align: center;
+      padding: 2em;
+      background-color: #FFFFFF;
+    }
+
+/*configure to tablet screen*/
+@media only screen and (max-width: 64em)
+      {
+
+		nav
+			{
+				padding-top: 1em;
+				padding-right 1em;
+			}
+
+		#homehero, #hero
+            {
+              height: auto;
+            }
+
+        #homehero h1, #hero h1
+            {
+              text-align: center;
+              padding: 1em 0;
+              margin: 0;
+              font-size: 2em;
+            }
+
+        #homehero p, #hero p
+            {
+              text-align: center;
+              padding: 0;
+              padding-bottom: 2em;
+              margin: auto;
+              font-size: 1em;
+              width: 80%;
+            }
+
+        #form-section
+      			{
+      				background:
+      				linear-gradient(
+      				rgba(252, 252, 247, 0.65),
+      				rgba(252, 252, 247, 0.65)
+      				),
+      				url("formimg2.jpg");
+      				padding: 3em;
+      				background-position: right;
+      				background-size: cover;
+      			}
+
+        #menusection
+      			{
+      				background:
+      				linear-gradient(
+      				rgba(252, 252, 247, 0.65),
+      				rgba(252, 252, 247, 0.65)
+      				),
+      				url("menusimg.jpg");
+      				padding: 3em;
+      				background-position: right;
+      				background-size: cover;
+      			}
+
+        form
+            {
+              width: 80%;
+              padding: 3em;
+              margin: auto;
+            }
+
+        input, label
+            {
+              display: inline-block;
+            }
+
+        button
+            {
+              background-color: #FFFFFF;
+              color: #363434;
+              border: 0 none;
+            }
+    		#share
+      			{
+      				padding-left: 3em;
+      				padding-right: 3em;
+
+      			}
+}
+
+/* configure to smartphone screen */
+@media only screen and (max-width: 37.5em)
+    {
+
+      nav ul
+          {
+            display: inline;
+            padding: 0;
+            margin: auto;
+          }
+
+      nav li
+          {
+            float: left;
+            display: inline;
+            text-align: center;
+          }
+      hr
+          {
+            margin-top: 1.5em;
+          }
+      #homehero, #hero
+          {
+            height: auto;
+          }
+
+      #homehero h1, #hero h1
+          {
+            text-align: center;
+            padding: 1em 0;
+            margin: 0;
+            font-size: 2em;
+          }
+
+      #homehero p, #hero p
+          {
+            text-align: center;
+            padding: 0;
+            padding-bottom: 2em;
+            margin: auto;
+            font-size: 1em;
+            width: 80%;
+          }
+
+      #form-section
+        {
+          padding: 2em;
+        }
+
+      #resultsbox, #menubox
+          {
+            background-color: #FBFBF8;
+            width: 80%;
+            margin: auto;
+            border: 2px solid #949492;
+            border-radius: 2px;
+            margin-top: 1em;
+          }
+
+      form
+          {
+            width: 80%;
+            padding: 2em;
+            margin: auto;
+          }
+
+      input, label
+          {
+            display: inline-block;
+          }
+
+      button
+          {
+            background-color: #FFFFFF;
+            color: #363434;
+            border: 0 none;
+          }
+
+      #aboutwrapper
+          {
+            margin: 0 auto;
+            padding: 0;
+            height: 80%;
+            width: 100%;
+            background-size: cover;
+          }
+
+      #extra
+          {
+            display: inline-block;
+            padding-left: 0;
+            align-items: center;
+            margin: auto;
+          }
+
+}
+
+#extra
+      {
+        height: 30em;
+        background-color: #eaeaea;
+      }
+
+#extra h2
+      {
+        text-align: center;
+        padding-top: 1em;
+      }
+
+#calc
+      {
+        margin: 0 auto;
+        padding-left: 48em;
+      }
+
+#extra button
+      {
+        margin-left: 55em;
+      }
+
+#calcTotalPara
+      {
+        text-align: center;
+      }
